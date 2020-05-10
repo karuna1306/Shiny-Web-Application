@@ -1,0 +1,38 @@
+Course Project: Shiny Application and Reproducible Pitch - Data Summary Calculation
+========================================================
+author: Karuna Raghuwanshi
+date: 10th May 2020
+autosize: true
+
+Overview
+========================================================
+
+
+- This presentation is one half of the assignemnt of week 4, Developing Data     Products course from Coursera
+- Assignments details can be found here - https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shiny-application-and-reproducible-pitch
+- The presentation was generated using RStudio(https://www.rstudio.com) Presenter.
+
+
+About Application and User guide
+========================================================
+ - The Assignment was to develop a web application. I have developed 'Data Summary Calculation' application.
+ - This application shows the summary of 3 datasets - mtcars, PlantGrowth and iris.
+ - A user can select any of dataset in UI with number of obervation. A summary with observation will be displayed.
+ - Application can be found here  https://karuna-raghuwanshi.shinyapps.io/Shinyweb/
+ 
+
+Example R code
+========================================================
+
+```{r, echo=TRUE}
+summary(iris)
+summary(PlantGrowth)
+
+```
+
+Conclusion
+=======================================================
+
+This app can be a very useful tool for viewing summary of datasets quickly.It is shows summary in more presentable form.More datasets can be added in this application as per the requirement.
+
+Github link - https://github.com/karuna1306/Shiny-Web-Application
